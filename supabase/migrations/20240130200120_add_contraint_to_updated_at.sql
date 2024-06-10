@@ -1,0 +1,1 @@
+alter table "public"."tools" alter column "updated_at" set NOT NULL
