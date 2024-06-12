@@ -15,8 +15,8 @@
     "@vercel/remix": "2.9.2",
     "isbot": "^5.1.9",
     "react": "^18.3.0",
-    "react-dom": "^18.3.",
-    "vellum-ai": "0.5.2"
+    "react-dom": "^18.3.0",
+    "vellum-ai": "0.6.4"
   },
   "devDependencies": {
     "@remix-run/dev": "2.9.1",
