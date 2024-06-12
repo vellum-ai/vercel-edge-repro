@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX favorite_tools_unique_index ON favorite_tools(favorited_by,tool_id);

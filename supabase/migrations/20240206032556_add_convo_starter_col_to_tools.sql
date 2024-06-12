@@ -1,1 +1,0 @@
-alter table tools add column conversation_starter text

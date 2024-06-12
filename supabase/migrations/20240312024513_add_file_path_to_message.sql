@@ -1,1 +1,0 @@
-alter table messages add column attached_file_path text
