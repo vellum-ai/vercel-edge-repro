@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
-    "dev": "remix vite:dev --host"
+    "dev": "remix vite:dev --host",
+    "postinstall": "ls node_modules"
   },
   "dependencies": {
     "@remix-run/node": "2.9.1",

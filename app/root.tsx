@@ -16,6 +16,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body suppressHydrationWarning>
+        Hello, World
         {children}
         <ScrollRestoration />
         <Scripts />
@@ -25,6 +26,5 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />
+  return <Outlet />;
 }
-
