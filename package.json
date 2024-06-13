@@ -16,6 +16,7 @@
     "@vercel/remix": "2.9.2",
     "isbot": "^5.1.9",
     "object-inspect": "^1.13.1",
+    "qs": "^6.12.1",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "vellum-ai": "0.6.4"
