@@ -1,6 +1,6 @@
 export const config = { runtime: "edge" };
-import { VellumClient } from "vellum-ai";
-new VellumClient({ apiKey: "" });
+import qs from "qs";
+
 export const action = async () => {
-  return new Response('Hello World', { status: 200 });
+  return new Response(qs.stringify({ a: 1, b: 2 }), { status: 200 });
 }
